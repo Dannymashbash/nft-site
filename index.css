@@ -1,18 +1,10 @@
  body {
-     margin: 0;
-     font-size: 1rem;
      color: #2b283a;
      font-family: "Roboto", sans-serif;
  }
 
- header {
-     padding: 45px 0px;
-     background-color: #5f29a3;
- }
-
+ /* Headings */
  h1 {
-     margin: 0;
-     color: whitesmoke;
      font-size: 2.25rem;
  }
 
@@ -21,24 +13,73 @@
  }
 
  h3 {
-     margin: 0;
      color: #d0aaff;
      font-size: 1.25rem;
  }
 
- a{
-   color: #ef5839; 
-   text-decoration: underline dotted;
-}
- a:hover,  a:active{
-    color: #d4b44c;
+ /* Links */
+ a {
+     color: #ef5839;
+     text-decoration: underline dotted;
  }
 
+ a:hover,
+ a:active {
+     color: #d4b44c;
+ }
 
- section {
+ /* Layouts */
+ .container {
+     width: 620px;
+     margin: 0 auto;
+ }
+
+ .second-container {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ /* Sections */
+ header,
+ .second-content {
+     background-color: #5f29a3;
+ }
+
+ header,
+ section,
+ footer {
      padding: 45px 0px;
  }
 
+ footer {
+     text-align: center;
+     color: #5f29a3;
+ }
+
+
+ /* Images */
  .img-sneaker {
      width: 100%;
+ }
+
+ .img-nft {
+     width: 300px;
+     border-radius: 4.6px;
+ }
+
+ /* Extra */
+ body,
+ h1,
+ h3 {
+     margin: 0;
+ }
+
+ h1,
+ .second-content {
+     color: whitesmoke;
+ }
+
+ body,
+ footer {
+     font-size: 1rem;
  }
