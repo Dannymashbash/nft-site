@@ -37,6 +37,7 @@
      border-radius: 4.6px;
      font-weight: 400;
      text-decoration: none;
+     display: inline-block;
  }
 
  #nft-link {
@@ -44,7 +45,8 @@
      color: whitesmoke;
  }
 
- .link-btn:hover {
+ .link-btn:hover,
+ .link-btn:active {
      background-color: #f3e885 !important;
      color: #2b283a !important;
  }
